@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("cred_nonprod.json")
   project = "singhisking-vpc-host-nonprod"
   region = "us-central1"
   zone = "us-central1-c"
